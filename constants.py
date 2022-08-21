@@ -1,23 +1,19 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 start_message_text: str = (
-    """Hello {}, I am Share Text Bot, a bot to share text. created by @tdicprojects"""
+    """Hello {}, I am Share Text Bot, a bot to share text. created by Mahima Pansilu"""
 )
 
 start_message_reply_markup = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton("🔍 Inline here", switch_inline_query_current_chat="")],
         [
-            InlineKeyboardButton("🆘 Help", callback_data="help"),
+            InlineKeyboardButton("🆘 Help", url="https://sl_mahima_contact_bot"),
         ],
+        
         [
-            InlineKeyboardButton(
-                "📄Source code", url="https://github.com/iiiiii1wepfj/share-text-bot"
-            ),
-        ],
-        [
-            InlineKeyboardButton("📣 Channel", url="https://t.me/TDICProjects"),
-            InlineKeyboardButton("Group 👥", url="https://t.me/TDICSupport"),
+            InlineKeyboardButton("📣 Channel", url="https://t.me/slslmahimaofficial"),
+            InlineKeyboardButton("Web Site 🌐", url="http://mahimapansilu.rf.gd"),
         ],
     ]
 )
